@@ -538,7 +538,7 @@ struct samsung_power_module HAL_MODULE_INFO_SYM = {
         .init = samsung_power_init,
         .setInteractive = samsung_power_set_interactive,
         .powerHint = samsung_power_hint,
-        .getFeature = samsung_get_feature
+        .getFeature = samsung_get_feature,
         .setFeature = samsung_set_feature
     },
 
